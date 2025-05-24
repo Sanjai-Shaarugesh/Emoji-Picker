@@ -1,7 +1,7 @@
 {
   "name": "@shaarugesh/emoji-picker",
   "version": "1.0.3",
-  "description": "A Svelte emoji picker component",
+  "description": "A Svelte emoji picker component with AI-powered search capabilities using TensorFlow.js",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -14,18 +14,32 @@
   "keywords": [
     "svelte",
     "emoji",
-    "picker"
+    "picker",
+    "ai",
+    "tensorflow",
+    "component",
+    "ui",
+    "search",
+    "wasm"
   ],
   "exports": {
-    ".": "./src/EmojiPicker.svelte",
-    "./types": "./dist/index.d.ts"
+    ".": "./src/index.ts",
+    "./component": "./src/EmojiPicker.svelte",
+    "./types": "./src/types.ts"
   },
   "publish": {
     "include": [
       "src/",
-      "dist/",
       "README.md",
       "LICENSE"
+    ],
+    "exclude": [
+      "src/App.svelte",
+      "**/*.test.*",
+      "**/*.spec.*",
+      "**/*.config.*",
+      "dist/",
+      "node_modules/"
     ]
   }
 }
