@@ -1,5 +1,5 @@
 {
-  "name": "@sanjai-shaarugesh/emoji-picker",
+  "name": "@shaarugesh/emoji-picker",
   "version": "1.0.0",
   "description": "A Svelte emoji picker component",
   "type": "module",
