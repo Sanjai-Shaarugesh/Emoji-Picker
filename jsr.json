@@ -1,5 +1,5 @@
 {
-  "name": "@shaarugesh/emoji-picker",
+  "name": "@shaarugesh/emoji-picker-svelte",
   "version": "1.0.3",
   "description": "A Svelte emoji picker component with AI-powered search capabilities using TensorFlow.js",
   "license": "MIT",
