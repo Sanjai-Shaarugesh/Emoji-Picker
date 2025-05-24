@@ -75,6 +75,18 @@ Import and use the emoji picker in any Svelte component:
 
 ---
 
+## 🎪 Demo Link
+[https://emoji-picker-demo.vercel.app](https://emoji-picker-demo.vercel.app)
+
+---
+
+
+## Github repo link 
+
+[https://github.com/Sanjai-Shaarugesh/Emoji-Picker](https://github.com/Sanjai-Shaarugesh/Emoji-Picker)
+
+---
+
 ## 🛠 Development Setup
 
 ```bash
