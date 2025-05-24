@@ -108,7 +108,7 @@ Got an idea? Found a bug? Open an issue or PR — contributions are welcome!
 
 ## 📄 License
 
-MIT © [Your Name](https://github.com/yourname)
+MIT © [sanjai-shaarugesh](https://github.com/Sanjai-Shaarugesh/Emoji-Picker/blob/main/LICENSE)
 
 ---
 
