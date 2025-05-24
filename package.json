@@ -1,6 +1,6 @@
 {
   "name": "@shaarugesh/emoji-picker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Svelte emoji picker component",
   "type": "module",
   "main": "dist/index.js",
@@ -38,7 +38,6 @@
   },
   "homepage": "https://github.com/Sanjai-Shaarugesh/Emoji-Picker",
   "demo-page": "https://emoji-picker-demo.vercel.app",
-
   "devDependencies": {
     "@sveltejs/package": "^2.3.0",
     "@sveltejs/vite-plugin-svelte": "^5.0.3",
