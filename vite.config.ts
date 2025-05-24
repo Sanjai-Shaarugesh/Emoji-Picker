@@ -5,4 +5,15 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [svelte(), tailwindcss(),],
+  build: {
+    outDir: 'dist',
+    lib: {
+      entry: 'src/App.svelte',
+      formats: ['es'],
+      fileName: () => 'app.js',
+    },
+    rollupOptions: {
+      external: ['svelte'], // Avoid bundling svelte itself
+    }
+  }
 })

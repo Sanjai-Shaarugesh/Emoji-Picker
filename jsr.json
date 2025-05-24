@@ -11,6 +11,7 @@
     "url": "https://github.com/Sanjai-Shaarugesh/Emoji-Picker/issues"
   },
   "exclude": ["**/*.svelte"],
+  
   "homepage": "https://github.com/Sanjai-Shaarugesh/Emoji-Picker",
   "keywords": [
     "svelte",
@@ -24,9 +25,8 @@
     "wasm"
   ],
   "exports": {
-    ".": "./src/index.ts",
-    "./component": "./src/App.svelte",
-    "./types": "./src/types.ts"
+  ".": "./dist/App.js"
+   
   },
   "publish": {
     "include": [

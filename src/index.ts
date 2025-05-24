@@ -12,6 +12,8 @@
  */
 export const EMOJI_PICKER_COMPONENT_PATH = './App.svelte';
 
+
+
 /**
  * Factory function to create the emoji picker (for non-Svelte environments)
  * This is a placeholder - actual implementation would need to be built/compiled
