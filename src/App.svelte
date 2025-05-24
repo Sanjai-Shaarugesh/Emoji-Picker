@@ -1,6 +1,6 @@
 <script>
  
-  import { onMount, createEventDispatcher } from 'svelte';
+  import  {onMount, createEventDispatcher}  from 'svelte';
   import { Popover, Separator } from 'bits-ui';
   import { Smile, Search, X } from '@lucide/svelte';
   import { emojiCategories } from './help/emoList';
