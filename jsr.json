@@ -25,7 +25,7 @@
     "wasm"
   ],
   "exports": {
-  ".": "./dist/App.js"
+  ".": "./dist/app.js"
    
   },
   "publish": {
