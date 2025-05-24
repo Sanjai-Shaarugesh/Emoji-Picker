@@ -10,8 +10,6 @@
   "bugs": {
     "url": "https://github.com/Sanjai-Shaarugesh/Emoji-Picker/issues"
   },
-  "exclude": ["**/*.svelte"],
-  
   "homepage": "https://github.com/Sanjai-Shaarugesh/Emoji-Picker",
   "keywords": [
     "svelte",
@@ -25,12 +23,13 @@
     "wasm"
   ],
   "exports": {
-  ".": "./dist/app.js"
-   
+    ".": "./dist/app.js"
   },
+  "exclude": ["**/*.svelte"],
+
   "publish": {
     "include": [
-      "src/",
+      "dist/app.js",
       "README.md",
       "LICENSE"
     ],
@@ -39,7 +38,6 @@
       "**/*.test.*",
       "**/*.spec.*",
       "**/*.config.*",
-      "dist/",
       "node_modules/"
     ]
   }
