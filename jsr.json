@@ -24,7 +24,7 @@
   ],
   "exports": {
     ".": "./src/index.ts",
-    "./component": "./src/EmojiPicker.svelte",
+    "./component": "./src/App.svelte",
     "./types": "./src/types.ts"
   },
   "publish": {
