@@ -1,45 +1,46 @@
 {
   "name": "@shaarugesh/emoji-picker",
-  "version": "1.0.1",
-  "description": "A Svelte emoji picker component",
-  "type": "module",
-  "main": "dist/index.js",
-  "svelte": "src/EmojiPicker.svelte",
-  "types": "dist/index.d.ts",
-  "exports": {
-    ".": {
-      "import": "./dist/index.js"
-    }
-  },
-  "files": [
-    "dist",
-    "README.md",
-    "LICENSE"
-  ],
-  "keywords": [
-    "svelte",
-    "emoji",
-    "picker"
-  ],
-  "author": "Sanjai-Shaarugesh",
-  "license": "MIT",
+    "version": "1.0.0",
+    "description": "A Svelte emoji picker component",
+    "type": "module",
+    "main": "dist/index.js",
+    "svelte": "src/EmojiPicker.svelte",
+    "types": "dist/index.d.ts",
+    "exports": {
+      ".": {
+        "import": "./dist/index.js"
+      }
+    },
+    "files": [
+      "dist",
+      "README.md",
+      "LICENSE"
+    ],
+    "keywords": [
+      "svelte",
+      "emoji",
+      "picker"
+    ],
+    "author": "Sanjai-Shaarugesh",
+    "license": "MIT",
+   
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Sanjai-Shaarugesh/Emoji-Picker.git"
+    },
+    "bugs": {
+      "url": "https://github.com/Sanjai-Shaarugesh/Emoji-Picker/issues"
+    },
+    "homepage": "https://github.com/Sanjai-Shaarugesh/Emoji-Picker",
+    "demo-page": "https://emoji-picker-demo.vercel.app",
+
   "scripts": {
     "dev": "vite",
-    "build": "svelte-package",
+    "build": "vite build",
     "preview": "vite preview",
-    "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json"
+    "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json --no-git-checks"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Sanjai-Shaarugesh/Emoji-Picker.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Sanjai-Shaarugesh/Emoji-Picker/issues"
-  },
-  "homepage": "https://github.com/Sanjai-Shaarugesh/Emoji-Picker",
-  "demo-page": "https://emoji-picker-demo.vercel.app",
   "devDependencies": {
-    "@sveltejs/package": "^2.3.0",
     "@sveltejs/vite-plugin-svelte": "^5.0.3",
     "@tsconfig/svelte": "^5.0.4",
     "svelte": "^5.28.1",
