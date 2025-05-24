@@ -22,17 +22,17 @@ Install via your favorite package manager:
 
 ### **npm**
 ```bash
-npm install @your-org/emoji-picker
+npm i @shaarugesh/emoji-picker
 ```
 
 ### **pnpm**
 ```bash
-pnpm add @your-org/emoji-picker
+pnpm add @shaarugesh/emoji-picker
 ```
 
 ### **bun**
 ```bash
-bun add @your-org/emoji-picker
+bun add @shaarugesh/emoji-picker
 ```
 
 ### **jsr (Deno)**
