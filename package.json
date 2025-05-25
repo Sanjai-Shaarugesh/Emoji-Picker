@@ -1,14 +1,11 @@
 {
-  "name": "@sanjai-shaarugesh/emoji-picker-svelte",
+  "name": "@shaarugesh/emoji-picker-svelte",
   "version": "2.0.2",
   "description": "A Svelte emoji picker component",
   "type": "module",
   "main": "dist/index.js",
   "svelte": "src/App.svelte",
   "types": "dist/index.d.ts",
-   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "exports": {
     ".": {
       "import": "./src/App.svelte",

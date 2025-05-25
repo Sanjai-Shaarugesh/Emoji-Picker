@@ -1,9 +1,10 @@
-
 # 😄 EmojiPicker — A Svelte Emoji Picker Component
 
 A simple, reusable, and event-based emoji picker built for Svelte. Perfect for chat apps, editors, and anything fun!
 
+![EmojiPicker Preview](https://raw.githubusercontent.com/Sanjai-Shaarugesh/Emoji-Picker/refs/heads/main/public/emo-1.png)
 
+![EmojiPicker Preview](https://raw.githubusercontent.com/Sanjai-Shaarugesh/Emoji-Picker/refs/heads/main/public/emo-2.png)
 
 ---
 
@@ -68,18 +69,10 @@ Import and use the emoji picker in any Svelte component:
 
 ---
 
-## 📸 Preview
-
-![EmojiPicker Preview](https://raw.githubusercontent.com/Sanjai-Shaarugesh/Emoji-Picker/refs/heads/main/public/emo-1.png)
-![EmojiPicker Preview](https://raw.githubusercontent.com/Sanjai-Shaarugesh/Emoji-Picker/refs/heads/main/public/emo-2.png)
-
----
-
 ## 🎪 Demo Link
 [https://emoji-picker-demo.vercel.app](https://emoji-picker-demo.vercel.app)
 
 ---
-
 
 ## Github repo link 
 
