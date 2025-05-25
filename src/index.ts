@@ -3,16 +3,13 @@
  * A feature-rich emoji picker with AI-powered search capabilities
  */
 
-// For JSR compatibility, we need to create a wrapper that doesn't directly import .svelte files
-// Instead, we'll provide the component path and let the consumer handle the import
+// ✅ Export the actual component in Svelte environments
+// Consumers can import this file in their Svelte apps directly
+// For environments that support `.svelte` files (like SvelteKit + Vite)
+export { default as EmojiPicker } from './App.svelte';
 
-/**
- * Path to the main EmojiPicker Svelte component
- * Users should import this directly in their Svelte projects
- */
+// ✅ Optional path reference for environments that don’t support `.svelte` import
 export const EMOJI_PICKER_COMPONENT_PATH = './App.svelte';
-
-
 
 /**
  * Factory function to create the emoji picker (for non-Svelte environments)
@@ -22,22 +19,22 @@ export function createEmojiPicker() {
   throw new Error('This component is designed for Svelte. Please import the .svelte file directly in your Svelte project.');
 }
 
-// Type definitions for the component props
+// ✅ Component props
 export interface EmojiPickerProps {
   /** Additional CSS class name to apply to the component */
   className?: string;
 }
 
-// Event types that the component dispatches
+// ✅ Component events
 export interface EmojiPickerEvents {
   /** Fired when an emoji is selected */
   emoji: CustomEvent<string>;
 }
 
-// Re-export types
+// ✅ Re-export additional types
 export * from './types';
 
-// Component metadata
+// ✅ Metadata for docs / DX
 export const componentInfo = {
   name: 'EmojiPicker',
   version: '1.0.3',

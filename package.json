@@ -1,20 +1,28 @@
 {
   "name": "@shaarugesh/emoji-picker-svelte",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "A Svelte emoji picker component",
     "type": "module",
     "main": "dist/index.js",
-    "svelte": "src/EmojiPicker.svelte",
+    "svelte": "src/App.svelte",
     "types": "dist/index.d.ts",
     "exports": {
       ".": {
         "import": "./dist/index.js"
       }
+
+    },
+
+       "./component": {
+      "svelte": "./src/App.svelte",
+      "import": "./src/App.svelte"
     },
     "files": [
-      "dist",
+      
       "README.md",
-      "LICENSE"
+      "LICENSE",
+       "dist",
+    "src/App.svelte"
     ],
     "keywords": [
       "svelte",

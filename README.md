@@ -48,7 +48,7 @@ Import and use the emoji picker in any Svelte component:
 
 ```svelte
 <script lang="ts">
-  import EmojiPicker from '@your-org/emoji-picker';
+  import emoji_picker_svelte from '@shaarugesh/emoji-picker-svelte';
 
   let selectedElement = { content: '' };
 
