@@ -1,6 +1,6 @@
 {
   "name": "@sanjai-shaarugesh/emoji-picker-svelte",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A Svelte emoji picker component",
   "type": "module",
   "main": "dist/index.js",
