@@ -20,7 +20,7 @@
     "README.md",
     "LICENSE",
     "dist",
-    "src/App.svelte"
+    "src"
   ],
   "keywords": [
     "svelte",
