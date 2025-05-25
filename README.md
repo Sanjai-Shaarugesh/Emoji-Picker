@@ -22,22 +22,22 @@ Install via your favorite package manager:
 
 ### **npm**
 ```bash
-npm i @shaarugesh/emoji-picker
+npm i @shaarugesh/emoji-picker-svelte
 ```
 
 ### **pnpm**
 ```bash
-pnpm add @shaarugesh/emoji-picker
+pnpm add @shaarugesh/emoji-picker-svelte
 ```
 
 ### **bun**
 ```bash
-bun add @shaarugesh/emoji-picker
+bun add @shaarugesh/emoji-picker-svelte
 ```
 
 ### **jsr (Deno)**
 ```ts
-import EmojiPicker from "jsr:@your-org/emoji-picker";
+import * as emoji_picker_svelte from "@shaarugesh/emoji-picker-svelte";
 ```
 
 ---
