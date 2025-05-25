@@ -86035,7 +86035,7 @@ function KNt(n, t) {
                     var na = An(Qa, 2), cu = $e(na), $o = $e(cu);
                     hs(
                       (le) => {
-                        Kr(Bn, J(m) ? "Supercharged TBM AI with WASM" : "Make it expressive"), Qf(un, "placeholder", J(l) ? "Loading smart search..." : "Search emojis by description..."), Kr($o, le);
+                        Kr(Bn, J(m) ? "Supercharged AI with WASM" : "Make it expressive"), Qf(un, "placeholder", J(l) ? "Loading smart search..." : "Search emojis by description..."), Kr($o, le);
                       },
                       [
                         () => J(o).trim() ? `${J(i).length} emojis found` : `${pf[J(r)].length} emojis`
