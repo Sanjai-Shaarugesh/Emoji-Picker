@@ -6,7 +6,9 @@
   "main": "dist/index.js",
   "svelte": "src/App.svelte",
   "types": "dist/index.d.ts",
-  
+   "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "exports": {
     ".": {
       "import": "./src/App.svelte",
