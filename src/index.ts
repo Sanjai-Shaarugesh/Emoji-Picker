@@ -11,6 +11,9 @@ export { default as EmojiPicker } from './App.svelte';
 // ✅ Optional path reference for environments that don’t support `.svelte` import
 export const EMOJI_PICKER_COMPONENT_PATH = './App.svelte';
 
+export  { emojiMetadata } from './help/emoList';
+export { default as debounce } from './help/debounce';
+
 /**
  * Factory function to create the emoji picker (for non-Svelte environments)
  * This is a placeholder - actual implementation would need to be built/compiled
