@@ -37,7 +37,7 @@ bun add @shaarugesh/emoji-picker-svelte
 
 ### **jsr (Deno)**
 ```ts
-import * as emoji_picker_svelte from "@shaarugesh/emoji-picker-svelte";
+import * as  EmojiPicker from "jsr:@shaarugesh/emoji-picker-svelte";
 ```
 
 ---
@@ -48,7 +48,7 @@ Import and use the emoji picker in any Svelte component:
 
 ```svelte
 <script lang="ts">
-  import emoji_picker_svelte from '@shaarugesh/emoji-picker-svelte';
+    import EmojiPicker from '@shaarugesh/emoji-picker-svelte';
 
   let selectedElement = { content: '' };
 
