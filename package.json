@@ -1,53 +1,43 @@
 {
   "name": "@shaarugesh/emoji-picker-svelte",
-    "version": "1.0.6",
-    "description": "A Svelte emoji picker component",
-    "type": "module",
-    "main": "dist/index.js",
-    "svelte": "src/App.svelte",
-    "types": "dist/index.d.ts",
-    "exports": {
-      ".": {
-        "import": "./dist/index.js"
-      }
-
+  "version": "1.0.6",
+  "description": "A Svelte emoji picker component",
+  "type": "module",
+  "main": "dist/index.js",
+  "svelte": "src/App.svelte",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./src/App.svelte",
+      "svelte": "./src/App.svelte"
     },
-
-       "./component": {
-      "svelte": "./src/App.svelte",
-      "import": "./src/App.svelte"
-    },
-    "files": [
-      
-      "README.md",
-      "LICENSE",
-       "dist",
-    "src/App.svelte"
-    ],
-    "keywords": [
-      "svelte",
-      "emoji",
-      "picker"
-    ],
-    "author": "Sanjai-Shaarugesh",
-    "license": "MIT",
-   
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/Sanjai-Shaarugesh/Emoji-Picker.git"
-    },
-    "bugs": {
-      "url": "https://github.com/Sanjai-Shaarugesh/Emoji-Picker/issues"
-    },
-    "homepage": "https://github.com/Sanjai-Shaarugesh/Emoji-Picker",
-    "demo-page": "https://emoji-picker-demo.vercel.app",
-
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json --no-git-checks"
+    "./component": {
+      "import": "./src/App.svelte",
+      "svelte": "./src/App.svelte"
+    }
   },
+  "files": [
+    "README.md",
+    "LICENSE",
+    "dist",
+    "src/App.svelte"
+  ],
+  "keywords": [
+    "svelte",
+    "emoji",
+    "picker"
+  ],
+  "author": "Sanjai-Shaarugesh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sanjai-Shaarugesh/Emoji-Picker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sanjai-Shaarugesh/Emoji-Picker/issues"
+  },
+  "homepage": "https://github.com/Sanjai-Shaarugesh/Emoji-Picker",
+  "demo-page": "https://emoji-picker-demo.vercel.app",
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^5.0.3",
     "@tsconfig/svelte": "^5.0.4",
@@ -67,5 +57,11 @@
     "bits-ui": "^1.7.0",
     "tailwindcss": "^4.1.7",
     "tailwindcss-animate": "^1.0.7"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json --no-git-checks"
   }
 }
