@@ -359,7 +359,7 @@
         <div class="flex flex-col">
           <h4 class="text-base font-semibold text-gray-900 dark:text-white">Pick an emoji</h4>
           <p class="text-sm text-gray-500 dark:text-gray-400">
-            {wasmReady ? 'Supercharged AI with WASM' : 'Make it expressive'}
+            {wasmReady ? 'Super charged AI with WASM' : 'Make it expressive'}
           </p>
         </div>
       </div>
