@@ -70,8 +70,8 @@ Import and use the emoji picker in any Svelte component:
 
 ## 📸 Preview
 
-![EmojiPicker Preview](public/emo-1.png)
-![EmojiPicker Preview](public/emo-2.png)
+![EmojiPicker Preview](https://raw.githubusercontent.com/Sanjai-Shaarugesh/Emoji-Picker/refs/heads/main/public/emo-1.png)
+![EmojiPicker Preview](https://raw.githubusercontent.com/Sanjai-Shaarugesh/Emoji-Picker/refs/heads/main/public/emo-2.png)
 
 ---
 
